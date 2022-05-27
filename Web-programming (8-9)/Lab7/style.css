@@ -1,0 +1,35 @@
+html, body 
+{
+    height: 100%;
+}
+
+html 
+{
+    display: table;
+    margin: auto;
+}
+
+body 
+{
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+table, tr, td 
+{
+   border: 3px inset Blue;
+   font-weight: bold;
+   
+}
+td 
+{
+    text-align: center;
+}
+fieldset {
+    display: inline-block;
+} 
+P { text-align: center }
+
+.hiddendiv {display:none;}
+.visiblediv {display:block;}

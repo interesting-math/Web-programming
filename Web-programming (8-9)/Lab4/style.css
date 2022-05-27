@@ -1,0 +1,38 @@
+html, body 
+{
+    height: 100%;
+}
+
+html 
+{
+    display: table;
+	font-size: 14pt;
+}
+
+table, tr, td 
+{
+   border: 3px inset Blue;
+   font-weight: bold;
+   
+}
+
+td 
+{
+    text-align: center;
+} 
+
+p
+{
+    text-indent: 2em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+sup {
+	vertical-align: super; 
+	font-size: 5 pt;
+}
+sub {
+	vertical-align: sub;
+	font-size: 5 pt;
+}
